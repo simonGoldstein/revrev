@@ -1,0 +1,33 @@
+#!/usr/bin/python2.7
+
+def revrev(to_rev):
+
+  '''
+
+  Reverse order of letters in word,
+
+  but keep words in the same original order
+
+  
+
+  Example
+
+  Input:  "The quick brown fox"
+
+  Output: "ehT kciuq nworb xof"
+
+  '''
+
+  # Separate into words
+  l = to_rev.split()
+  print(l)
+
+  # Reverse the words
+
+  # Comine words
+
+  return "ehT kciuq nworb xof"
+
+ 
+
+print(revrev("The quick brown fox")
